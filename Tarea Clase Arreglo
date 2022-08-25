@@ -1,0 +1,35 @@
+package tarea.pkg25.jul;
+
+import java.util.Arrays;
+
+public class Arreglo {
+    int arrayEntero[];
+    public int tamanio;
+    
+    
+    
+    
+    public Arreglo(int tamanio){
+    arrayEntero[]=new string[tamanio];    
+        
+    }
+    public void setElemento(int indice, int valor){
+        arrayEntero[indice] = valor;
+    
+    }
+    public String getElemento(int indice){
+        arrayEntero[indice];
+        
+    }
+    public void limpiar(int valor){
+        Array.fill(arrayEntero, valor);
+    }
+    public String toString(){
+        return Arrays.toString(arrayEntero);
+    }
+    
+    
+
+            
+    
+}
